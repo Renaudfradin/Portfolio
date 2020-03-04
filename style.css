@@ -1,0 +1,89 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+#block1{
+    position: relative;
+    background-image: url("blake-connally-B3l0g6HLxr8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    margin: 0%;
+    text-align: center;
+    padding-top: 19vh;
+}
+#nav1{
+    position:fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100px;
+    
+}
+#portfolio{
+    display: none;
+}
+.traveauxtitle{
+    text-align: center;
+    font-size: 25px;
+}
+.navbar-menu {
+    align-items: center;
+}
+#decale{
+    margin-left: 33%;
+}
+.titreprojet{
+    text-align: center;
+}
+.section{
+    background-color: #000;
+}
+#footer{
+    background-color: #000;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#CVBTN{
+    text-align: center;
+}
+.bienveue{
+    font-size: x-large;
+    width: 100%;
+    color: white;
+}
+
+@media screen and (max-width:1023px){
+    #portfolio{
+        display: flex;
+    }
+    #decale{
+        margin-left: 0%;
+        margin-top: 5vh;
+    }
+    .bienveue {
+        font-size: x-large;
+        width: 100%;
+        color: white;
+        margin-top: 5vh;
+    }
+}
+@media screen and (max-width:426px){
+    .bienveue {
+        font-size: x-large;
+        width: 100%;
+        color: white;
+        margin-top: 5vh;
+    }
+}
+@media screen and (max-width:769px){
+    .bienveue {
+        font-size: x-large;
+        width: 100%;
+        color: white;
+        margin-top: 5vh;
+    }
+}
