@@ -21,7 +21,7 @@
         
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start" id="navbar-menu1">
-                <a class="navbar-item" id="portfolio1" href="index.html">Portfolio</a>  
+                <a class="navbar-item" id="portfolio1" href="#top">Portfolio</a>  
                 <a class="navbar-item" id="propos1" href="#aprpos">A propos</a>
                 <a class="navbar-item" id="propos1" href="#competences">Mes Compétences</a>
                 <a class="navbar-item" id="travaux1" href="#mestravaux">Mes travaux</a>
@@ -30,6 +30,8 @@
             </div>
         </div>    
     </nav>
+<section id="top" style="background-color: #ffffff00;"></section>
+
 <div class="block" id="block1">
     <h1 class="bienveue">Bienvenue sur mon Portfolio</h1>
 </div>
@@ -60,7 +62,7 @@
                         Bonne visite !
                     </div>
                     <div class="column"  id="CVBTN">
-                        <a class="button is-medium" href="cv-devweb-alternance.pdf">Voir mon cv</a>
+                        <a class="button is-medium" href="cv.pdf">Voir mon cv</a>
                     </div>
                     
                 </div>
@@ -77,92 +79,190 @@
             <div class="column">
                 <h1 class="titreprog" style="text-align: center;">Langages</h1>
                 <h5>HTML <i class="fab fa-html5"></i></h5>
-                <progress class="progress is-info" value="90" max="100">90%</progress>
+                <progress class="progress is-info" value="80" max="100">90%</progress>
                 <h5>CSS <i class="fab fa-css3"></i></h5>
-                <progress class="progress is-info" value="45" max="100">45%</progress>
+                <progress class="progress is-info" value="80" max="100">80%</progress>
                 <h5>JAVASCRIPT <i class="fab fa-js-square"></i></h5>
-                <progress class="progress is-info" value="45" max="100">45%</progress>
+                <progress class="progress is-info" value="25" max="100">25%</progress>
                 <h5>PHP <i class="fab fa-php"></i></h5>
-                <progress class="progress is-info" value="45" max="100">45%</progress>
+                <progress class="progress is-info" value="60" max="100">60%</progress>
                 <h5>SQL <i class="fas fa-database"></i></h5>
-                <progress class="progress is-info" value="45" max="100">45%</progress>
+                <progress class="progress is-info" value="40" max="100">40%</progress>
                 <h5>JAVA <i class="fab fa-java"></i></h5>
-                <progress class="progress is-info" value="45" max="100">45%</progress>
+                <progress class="progress is-info" value="40" max="100">40%</progress>
                 <h5>PYTHON <i class="fab fa-python"></i></h5>
-                <progress class="progress is-info" value="45" max="100">45%</progress>
+                <progress class="progress is-info" value="30" max="100">30%</progress>
             </div>
             <div class="column">
                 <h1 class="titreprog" style="text-align: center;">Réseau/Materiel</h1>
                 <h5>Système d'exploitation Window/Linux <i class="fab fa-windows"></i> <i class="fab fa-linux"></i></h5>
-                <progress class="progress is-info" value="45" max="100">45%</progress>
+                <progress class="progress is-info" value="40" max="100">40%</progress>
                 <h5>Adressage IP/Configuration <i class="fas fa-server"></i></h5>
-                <progress class="progress is-info" value="45" max="100">45%</progress>
+                <progress class="progress is-info" value="15" max="100">15%</progress>
                 <h5>Virtualisation <i class="fas fa-desktop"></i></h5>
-                <progress class="progress is-info" value="45" max="100">45%</progress>
+                <progress class="progress is-info" value="15" max="100">15%</progress>
             </div>
         </div>
     </div>
 </div>
 <section id="mestravaux"><br><br><br><br><br></section>
-<h1 class="traveauxtitle">Mes Travaux scolaires/personnels<br></h1>
+<h1 class="traveauxtitle">Mes Travaux scolaires/personnels</h1><br><br>
 <div class="block">
     <div class="container">
         <div class="columns">
-            <div class="column">
-                <h1 class="titreprojet">Tp echec</h1>
-                <div class="column">Projet réalisé lors d'un TP donne par notre professeur</div>
-                <div class="column">
-                    - <i class="fab fa-html5"></i> HTML <br>
-                    - <i class="fab fa-css3-alt"></i> CSS <br>
-                    - <i class="fab fa-php"></i> PHP <br>
-                </div>
-                <div class="column"  id="CVBTN">
-                    <a class="button is-medium" href="https://renaudfradin.github.io/echec-fen/">Voir le projet</a>
+            <div class="column" id = "column">
+                <div class="card" >
+                    <div class="card-image" id ="card-image">
+                        <figure class="image is-4by3" >
+                        <img src="image/ECHECFEN.png" alt="" id = "imgproj">
+                        </figure>
+                    </div>
+                    <div class="card-content" id = "card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <div class="field is-grouped is-grouped-centered">
+                                    <p class="title is-4" id="title">TP ECHEC</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Placement de pièce d’échec grâce a la notation FEN<br>Realiser en HTML , CSS , PHP</p>
+                            <time datetime="">Novembre 2019</time>
+                            <div class="column" id="CVBTN">
+                                <a class="button is-medium" href="https://github.com/Renaudfradin/echec-fen">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="column">
-                <h1 class="titreprojet">The Skatchop</h1>
-                <div class="column">Projet realiser lord d'un week-end</div>
-                <div class="column">
-                    - <i class="fab fa-html5"></i> HTML <br>
-                    - <i class="fab fa-css3-alt"></i> CSS <br><br>
-                </div>
-                <div class="column"  id="CVBTN">
-                    <a class="button is-medium" href="https://renaudfradin.github.io/The-Skateshop/">Voir le projet</a>
+            <div class="column" id = "column">
+                <div class="card" >
+                    <div class="card-image" id ="card-image">
+                        <figure class="image is-4by3" >
+                        <img src="image/Screenshot_2020-04-21 The Skateshop.jpg" alt="" id = "imgproj">
+                        </figure>
+                    </div>
+                    <div class="card-content" id = "card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <div class="field is-grouped is-grouped-centered">
+                                    <p class="title is-4" id="title">The Skatchop</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Site vitrine de vente produit de skate<br>Realiser en HTML , CSS</p>
+                            <time datetime="">Mars 2020</time>
+                            <div class="column" id="CVBTN">
+                                <a class="button is-medium" href="https://github.com/Renaudfradin/The-Skateshop">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="column">
-                <h1 class="titreprojet">Nefarada-blog</h1>
-                <div class="column">Projet realiser pour une amie qui voulait un blog</div>
-                <div class="column">
-                    - <i class="fab fa-wordpress"></i> Wordpress<br><br><br>
-                </div>
-                <div class="column"  id="CVBTN">
-                    <a class="button is-medium" href="https://nefarada-blog.yj.fr/">Voir le projet</a>
+            <div class="column" id = "column">
+                <div class="card" >
+                    <div class="card-image" id ="card-image">
+                        <figure class="image is-4by3" >
+                        <img src="image/Screenshot_2020-04-21 Nefarada-blog.jpg" alt="" id = "imgproj">
+                        </figure>
+                    </div>
+                    <div class="card-content" id = "card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <div class="field is-grouped is-grouped-centered">
+                                    <p class="title is-4" id="title">Nefarada-blog</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Blog <br>Realiser en WORDPRESS</p>
+                            <time datetime="">Frevrier 2020 - En cours</time>
+                            <div class="column" id="CVBTN">
+                                <a class="button is-medium" href="https://nefarada-blog.yj.fr/">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="columns">
-            <div class="column">
-                <h1 class="titreprojet">LOCATION-CARS V2</h1>
-                <div class="column">Amelioration d'un projet déja realiser</div>
-                <div class="column">
-                    -<i class="fab fa-html5"></i> HTML <br>
-                    - <i class="fab fa-css3-alt"></i> CSS <br>
-                    
-                    - <i class="fab fa-php"></i> PHP <br>
-                </div>
-                <div class="column"  id="CVBTN">
-                    <a class="button is-medium" href="https://github.com/Renaudfradin/location-cars-V2/">Voir le projet</a>
+            <div class="column" id = "column">
+                <div class="card" >
+                    <div class="card-image" id ="card-image">
+                        <figure class="image is-4by3" >
+                        <img src="image/Screenshot_2020-04-21 AKIM-VTC.jpg" alt="" id = "imgproj">
+                        </figure>
+                    </div>
+                    <div class="card-content" id = "card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <div class="field is-grouped is-grouped-centered">
+                                    <p class="title is-4" id="title">LOCATION-CARS V2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Site de locations de voiture (ﬁctif) <br>Realiser en BULMA , JS ,PHP ,SQL</p>
+                            <time datetime="">Mars 2020 - En cours</time>
+                            <div class="column" id="CVBTN">
+                                <a class="button is-medium" href="https://github.com/Renaudfradin/location-cars-V2/">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="column">
-                
+            <div class="column" id = "column">
+                <div class="card" >
+                    <div class="card-image" id ="card-image">
+                      <figure class="image is-4by3" >
+                        <img src="image/Screenshot_2020-04-21 Intranet du Laboratoire Galaxy-Swiss Bourdin.png" alt="" id = "imgproj">
+                      </figure>
+                    </div>
+                    <div class="card-content" id = "card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <div class="field is-grouped is-grouped-centered">
+                                    <p class="title is-4" id="title">GSB-PHP</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Application de gestion de frais <br>Realiser en BULMA , PHP , SQL</p>
+                            <time datetime="">Mars 2020 - En cours</time>
+                            <div class="column" id="CVBTN">
+                                <a class="button is-medium" href="https://github.com/Renaudfradin/GSB-PHP">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="column">
-                
+            <div class="column" id = "column">
+                <div class="card" >
+                    <div class="card-image" id ="card-image">
+                      <figure class="image is-4by3" >
+                        <img src="image/EDITCALC.png" alt="" id = "imgproj">
+                      </figure>
+                    </div>
+                    <div class="card-content" id = "card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <div class="field is-grouped is-grouped-centered">
+                                    <p class="title is-4" id="title">EDITCALC JAVA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Calculette pour enfant <br>Realiser en JAVA , SQL</p>
+                            <time datetime="">Novembre 2019 - Avril 2020</time>
+                            <div class="column" id="CVBTN">
+                                <a class="button is-medium" href="https://github.com/Renaudfradin/EDITCAL-JAVA">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

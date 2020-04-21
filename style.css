@@ -1,6 +1,5 @@
 html{
     scroll-behavior: smooth;
-
 }
 body{
     font-family: 'Ubuntu', sans-serif;
@@ -8,7 +7,7 @@ body{
 }
 #block1{
     position: relative;
-    background-image: url("blake-connally-B3l0g6HLxr8.jpg");
+    background-image: url("image/blake-connally-B3l0g6HLxr8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -73,6 +72,36 @@ body{
 #contact1
 {
     color: aliceblue;
+}
+#card-content{
+    background-color: black;
+    color: white;
+    padding-top: 25px;  
+    padding-bottom: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#imgproj{
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+#title{
+    color: white;
+}
+#column{
+    border-radius: 5%;
+    border: 1px solid white;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-right: 12px;
+    padding-top: 0.75rem;
+    padding-bottom: 5px;
+
+}
+#card-image{
+    background-color: black;
 }
 @media screen and (max-width:1023px){
     #portfolio{
