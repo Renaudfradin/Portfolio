@@ -64,6 +64,7 @@ body{
     font-size: x-large;
     width: 100%;
     color: white;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 #portfolio1,
 #propos1,
@@ -102,6 +103,18 @@ body{
 }
 #card-image{
     background-color: black;
+}
+.section-mension{
+    background-color: black; 
+    color: white;
+}
+.titlemesion{
+    font-size: 25px;
+}
+.cgutitle{
+    padding-top: 50px ;
+    text-align: center;
+    font-size: 25px;
 }
 @media screen and (max-width:1023px){
     #portfolio{

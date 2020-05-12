@@ -12,3 +12,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
   });
+var letexte = "Bienvenue dans mon portfolio";
+var letexte = letexte.toLocaleUpperCase();
+var montimer;
+var cmpt = 0;
+function typewriter(){
+  lelien = document.getElementById('bienveue');
+  if(cmpt < letexte.length){
+      courant = lelien.innerHTML.substring(0, lelien.innerHTML.length);
+      courant += letexte.charAt(cmpt)+"";
+      lelien.innerHTML = courant;
+      cmpt = cmpt + 1;
+  }
+  else{
+      lelien.innerHTML = "";
+      cmpt = -1;
+  }
+  setTimeout("typewriter()",200);
+  
+}
+window.onload = function(){
+  typewriter();
+}
