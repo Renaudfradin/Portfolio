@@ -60,6 +60,9 @@ body{
 #CVBTN{
     text-align: center;
 }
+#CVBTN1{
+    margin-right: 10px;
+}
 .bienveue{
     font-size: x-large;
     width: 100%;
@@ -116,6 +119,12 @@ body{
     padding-top: 50px ;
     text-align: center;
     font-size: 25px;
+}
+@media screen and (max-width:1408px) and (min-width:769px){
+    #CVBTN1{
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
 }
 @media screen and (max-width:1023px){
     #portfolio{

@@ -34,3 +34,4 @@ function typewriter(){
 window.onload = function(){
   typewriter();
 }
+
