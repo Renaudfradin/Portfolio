@@ -1,0 +1,21 @@
+table { 
+    border-collapse: collapse;
+}
+td { 
+    width:50px; 
+    height:50px; 
+    padding:0;
+}
+.clair {
+    background:#FCFAE1;
+}
+.sombre { 
+    background:#BD8D46;
+}
+.img { 
+    margin:0;padding:0;
+}
+#contenu { 
+    width:500px; 
+    margin: 0 auto; 
+}

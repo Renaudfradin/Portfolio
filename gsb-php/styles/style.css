@@ -1,0 +1,38 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    font-family: 'Ubuntu', sans-serif;
+}
+.blockimg{
+    text-align: center;
+}
+#blocklog{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+}
+#navbar1{
+    margin-right: auto;
+    margin-left: auto;
+}
+#navbar{
+    width: 100%;
+}
+.imggsb{
+    height: 50%;
+}
+#footer{
+    background-color: #363636;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+#titlefooter{
+    color: white;
+}
+#tableauetatforfais{
+    margin: auto;
+}
