@@ -1,0 +1,55 @@
+#bare{
+    margin-left: 20px;
+}
+#inscrip{
+    margin-right: 4px;
+}
+
+li{
+    list-style-type:none;
+    
+}
+.col-sm-2{
+    margin-left: -30px;
+}
+
+.col-sm-8{
+    margin-left: 300px;
+    margin-top: -320px;
+   
+}
+
+.table1{
+    margin: 30px;
+    margin-left: 250px;
+}
+
+.btnprofil{
+    margin-left: 600px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: black;
+}
+
+.btnupdate{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 380px;
+    margin-left: -520px;
+    color: black;
+}
+
+button{
+    border: 1px solid;
+    border-radius: 10px;
+    color: black;
+}
+
+.btnutil,.btnbd,.btnbd1{
+    color: black;
+}
+
+.col-sm-12{
+    margin-top: -20px;
+}
+
